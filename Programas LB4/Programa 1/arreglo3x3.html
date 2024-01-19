@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 4</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+
+    var arreglo = new Array(3);
+    arreglo[0] = new Array(3);
+    arreglo[1] = new Array(3);
+    arreglo[2] = new Array(3);
+
+    var contador = 0
+    var promedio = 0
+    var contprom = 0
+
+    for (var i = 0; i <3; i++){
+        for (var j=0; j <3; j++){
+            arreglo[i][j] = prompt("Ingrese el numero en la posicion del arreglo ["+i+"]["+j+"]: ",)
+            if(arreglo[i][j]%2==0){
+                contador++
+            }
+            else{
+                promedio+=parseInt(arreglo[i][j])
+                contprom++
+            }
+        }
+    }
+
+    alert("La cantidad de numeros pares que se encontraron fueron: "+contador+" veces")
+    alert("El promedio de los numeros impares es: "+(promedio/contprom))
+    
+    
+
+   
+    
+</script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+[
+    {
+    "nombre": "Aladdin",
+    "género": "infantiles",
+    "año": "2019",
+    "direccion": "Guy Ritchie",
+    "sala": "sala 1"
+    },
+
+    {
+    "nombre": "Avengers: Endgame",
+    "género": "Acción, ficción",
+    "año": "2019",
+    "direccion": "Anthony Russo, Joe Russo",
+    "sala": "sala 2"
+    },
+    
+    {
+    "nombre": "Godzilla: King of the Monsters",
+    "género": "Ficción",
+    "año": "2019",
+    "direccion": "Michael Dougherty",
+    "sala": "sala 3"
+    },
+
+    {
+    "nombre": "Toy Story 4",
+    "género": "Infantiles",
+    "año": "2019",
+    "direccion": "Josh Cooley",
+    "sala": "sala 4"
+    },
+
+    {
+    "nombre": "Spiderman: far from home",
+    "género": "Acción, ficción",
+    "año": "2019",
+    "direccion": "Jon Watts",
+    "sala": "sala 5",
+    "imagen": "http://cdn.collider.com/wp-content/uploads/2019/05/spider-man-far-from-home-poster-fury-mysterio-2.jpg"
+    }
+]
+   

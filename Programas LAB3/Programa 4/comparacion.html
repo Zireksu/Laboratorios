@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 3</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+  
+var numeros = new Array(10)
+var suma=0
+
+for (var i = 0; i<10; i++) {
+    numeros[i] = prompt("Ingrese el numero: ",)
+}
+
+for (var i = 0; i<10; i=i+2) {
+    for (var j = 1; j<10; j=j+2) {
+        if(numeros[i]>numeros[j]){
+            suma++
+        }
+    }
+}
+
+if(suma==25){
+    alert("El arreglo es partidario")
+}
+else{
+    alert("El arreglo NO es partidario")
+}
+</script>
+</body>
+
+</html>

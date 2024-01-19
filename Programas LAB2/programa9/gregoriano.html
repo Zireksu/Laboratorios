@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Problema 9</title>
+        
+
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+
+    <script>
+var ano
+
+ano = prompt("Ingrese el año", 0)
+
+alert(anobi(ano))
+
+function anobi(ano) {
+    if (ano%4!=0){
+        return "Es un año normal"
+    }
+    else if(ano%100!=0){
+        return "Es un año bisiesto"
+    }
+    else if(ano%400!=0){
+        return "Es un año normal"
+    }
+    else{
+        return "Es un año bisiesto"
+    }
+
+}
+
+if(ano==1582){
+        alert("Es el año de la era gregoriana")
+    }
+    else{
+        alert("Año no corresponde a la era gregoriana")
+    }
+    </script>
+
+</body>
+
+</html>

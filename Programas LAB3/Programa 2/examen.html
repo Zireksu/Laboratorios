@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 3</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+
+        var preguntas = new Array(5);
+  
+  preguntas[0] = prompt("Elija la respuesta #1:  a, b, c",)
+  preguntas[1] = prompt("Elija la respuesta #2:  a, b, c",)
+  preguntas[2] = prompt("Elija la respuesta #3:  a, b, c",)
+  preguntas[3] = prompt("Elija la respuesta #4:  a, b, c",)
+  preguntas[4] = prompt("Elija la respuesta #5:  a, b, c",)
+
+  suma = 0
+
+  if(preguntas[0]=="a"){
+      suma++
+  }
+  if(preguntas[1]=="b"){
+      suma++
+  }
+  if(preguntas[2]=="a"){
+      suma++
+  }
+  if(preguntas[3]=="c"){
+      suma++
+  }
+  if(preguntas[4]=="b"){
+      suma++
+  }
+
+  
+  if(suma==5){
+      alert("Su nota es 'A'")
+  }
+  else if(suma==4){
+      alert("Su nota es 'C'")
+  }
+  else{
+      alert("Deberá respetir la prueba")
+  }
+
+</script>
+</body>
+
+</html>

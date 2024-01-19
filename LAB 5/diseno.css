@@ -1,0 +1,61 @@
+table{
+    border-collapse: separate;
+    border-spacing: 2px 3px;
+    margin: auto;
+  }
+
+
+  .numero{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:40%; 
+    left:40%;
+    background-color:  #d5dbdb ;
+}
+
+.button{
+  height:40px; 
+  width:150px; 
+  position:relative;
+  top:50%; 
+  left:45%;
+  background-color: #8e44ad;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #f8f9f9;
+}
+
+
+th{
+background-color: #8e44ad;
+font-family: 'Arial Narrow Bold', sans-serif;
+color:  #f8f9f9;
+}
+
+td{
+  background-color:  #d5dbdb ;
+}
+
+.titulo{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2e86c1 ;
+}
+
+
+#resultado1, #resultado2, #resultado3{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color:chocolate;
+}
+
+
+p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:  #2e86c1;
+}

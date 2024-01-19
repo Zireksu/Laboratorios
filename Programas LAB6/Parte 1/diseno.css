@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px; 
+    width:1000px; 
+    margin: 2px 4px; 
+    position:relative;
+    left:25%;
+    font-size: 24px;
+}
+.button{
+    height:40px; 
+    width:150px; 
+    position:relative;
+    top:50%; 
+    left:45%;
+    background-color:#229954;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f8f9f9;
+  }
+  a{
+    color:#f8f9f9
+  }
+
+  h3{
+    color: #f8f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 3</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+   var numeros = new Array(5);
+
+   numeros[0] = prompt("ingrese el primer numero: ",)
+   numeros[1] = prompt("ingrese el segundo numero: ",)
+   numeros[2] = prompt("ingrese el tercer numero: ",)
+   numeros[3] = prompt("ingrese el cuarto numero: ",)
+   numeros[4] = prompt("ingrese el quinto numero: ",)
+
+   var busqueda = prompt("Ahora ingrese el numero que desea buscar dentro del arreglo ",)
+
+   var letras = "El numero ingresado coincide con el "
+
+   if(busqueda==numeros[0]){
+       letras += "Indice 0, "
+   }
+   if(busqueda==numeros[1]){
+        letras += "Indice 1, "
+   }
+   if(busqueda==numeros[2]){
+        letras += "Indice 2, "
+   }
+   if(busqueda==numeros[3]){
+        letras += "Indice 3, "
+   }
+   if(busqueda==numeros[4]){
+       letras += "Indice 4, "
+   }
+   if(busqueda!=numeros[0] && busqueda!=numeros[1] && busqueda!=numeros[2] && busqueda!=numeros[3] && busqueda!=numeros[4]){
+       letras = "El numero ingresado no coincide con ningun numeros dentros de los indices del arreglo"
+   }
+
+   alert("El resultado es:   "+letras)
+
+</script>
+</body>
+
+</html>

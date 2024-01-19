@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 6</title>
+
+        <link rel="stylesheet" href="diseno.css" type="text/css" />
+        
+
+
+</head>
+
+<body style="background-color:#3498db ">
+
+    <div class="padre">
+    <h1 id="titulo"></h1>
+
+    <img src="img/elon.jpg"><br><br>
+
+    <p>“La junta directiva de Twitter acordó este lunes aceptar una oferta
+    de compra por valor de US$44.000 millones realizada por el multimillonario 
+    Elon Musk.</p>
+
+    <p>El multimillonario de origen sudafricano es el hombre más rico del mundo, según la revista Forbes, con un patrimonio 
+    neto estimado de US$273.600 millones gracias principalmente a su participación accionaria 
+    en el fabricante de vehículos eléctricos Tesla, que también dirige, al igual que la 
+    empresa aeroespacial SpaceX. </p>
+
+    <h2>La puja por Twitter</h2>
+
+    <p>La maniobra de Musk para adquirir Twitter sucedió a una velocidad notable.
+    A principios de abril se supo que el multimillonario se había convertido en el principal accionista de la 
+    empresa con una participación del 9,2%.
+    Luego fue invitado a unirse al directorio de Twitter, pero rechazó la propuesta antes de lanzar una oferta sorpresa por 
+    la empresa el 14 de abril, diciendo que quería "desbloquear" su potencial como bastión de la libertad de expresión.</p>
+
+
+    <p id="p4" >Qué es la "píldora venenosa" con la que Twitter quiere evitar la compra hostil de Elon Musk". </p>
+
+
+    </div>
+
+    <script type="text/javaScript">
+
+    //Elementos
+   document.getElementById("titulo").innerHTML="Elon Musk llega a un acuerdo para comprar Twitter por US$44.000 millones"
+   var newstring = document.createTextNode("La empresa finalizó 2021 con más de 200 millones de usuarios diarios en todo el mundo, un 13% más que el año anterior. La mayor parte de ese crecimiento provino de usuarios de fuera de EE.UU.")
+
+
+   var selector = document.querySelector('#p4')
+
+   selector.appendChild(newstring)
+    
+    var selectelement = document.querySelector('div')
+    var createparrafo = document.createElement('p')
+    var newparrafo = document.createTextNode("Pero a principios de este año, las acciones cotizaban más bajo que cuando la empresa inició por primera vez sus operaciones en la bolsa de valores en 2013.")
+
+    selectelement.appendChild(createparrafo)
+    createparrafo.appendChild(newparrafo)
+
+
+    
+    
+</script>
+</body>
+
+</html>

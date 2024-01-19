@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 3</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+    
+    function calculomasa(peso, altura) {
+        peso = peso*0.4536
+
+        var imc = peso / altura
+
+        if (imc < 18.5) {
+            alert("Estas por debbajo del peso normal")
+        }
+        else if (imc>=18.5 && imc<=25){
+            alert("Estas saludable, tu peso es normal")
+        }
+        else if (imc>25){
+            alert("¡Cuidado! Estas en sobrepeso")
+        }
+    }
+
+    calculomasa(prompt("Ingrese su peso (En Lb): ",),prompt("Ingrese su altura (En Mt): ",))
+</script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 4</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+
+   var fecha = new Date();
+   var diasemana = "", mes = ""
+
+   if(fecha.getDay()==1){
+        diasemana = "Lunes"
+   }
+   else if(fecha.getDay()==2){
+       diasemana = "Martes"
+   }
+   else if(fecha.getDay()==3){
+       diasemana = "Miercoles"
+   }
+   else if(fecha.getDay()==4){
+       diasemana = "Jueves"
+   }
+   else if(fecha.getDay()==5){
+       diasemana = "Viernes"
+   }
+   else if(fecha.getDay()==6){
+       diasemana = "Sabado"
+   }
+   else if(fecha.getDay()==7){
+       diasemana = "Domingo"
+   }
+
+
+   if(fecha.getMonth()==0){
+       mes="Enero"
+   }
+   else if(fecha.getMonth()==1){
+       mes="Febrero"
+   }
+   else if(fecha.getMonth()==2){
+       mes = "Marzo"
+   }
+   else if(fecha.getMonth()==3){
+       mes="Abril"
+   }
+   else if(fecha.getMonth()==4){
+       mes="Mayo"
+   }
+   else if(fecha.getMonth()==5){
+       mes="Junio"
+   }
+   else if(fecha.getMonth()==6){
+       mes="Julio"
+   }
+   else if(fecha.getMonth()==7){
+       mes="Agosto"
+   }
+   else if(fecha.getMonth()==8){
+       mes="Septiembre"
+   }
+   else if(fecha.getMonth()==9){
+       mes="Octubre"
+   }
+   else if(fecha.getMonth()==10){
+       mes="Noviembre"
+   }
+   else if(fecha.getMonth()==11){
+       mes="Diciembre"
+   }
+
+</script>
+<h2 style="color: white">
+    <script>
+   document.write("Hoy es, "+diasemana+" "+fecha.getDate()+" de "+mes+" de "+fecha.getFullYear());
+</script>
+</h2>
+
+<script>
+   alert("Hora: "+fecha.getHours()+":"+fecha.getMinutes())
+    
+</script>
+</body>
+
+</html>

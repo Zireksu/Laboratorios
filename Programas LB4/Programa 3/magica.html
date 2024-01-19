@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 4</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+<script type="text/javaScript">
+
+   var array = new Array(3);
+    array[0] = new Array(3);
+    array[1] = new Array(3);
+    array[2] = new Array(3);
+
+    var sumas = new Array(8)
+    var contador = 0
+
+    for (var i = 0; i <8; i++){
+        sumas[i]=0
+    }
+
+    for (var i = 0; i <3; i++){
+        for (var j=0; j <3; j++){
+            array[i][j] = prompt("Ingrese el numero, posicion ["+i+"]["+j+"]: ",)
+            sumas[i]+=parseInt(array[i][j])
+        }
+    }
+
+    for (var i = 0; i <3; i++){
+        for (var j=0; j <3; j++){
+            sumas[i+3]+=parseInt(array[j][i])
+        }
+        sumas[6]+=parseInt(array[i][i])
+        sumas[7]+=parseInt(array[2-i][i])
+    }
+
+    for (var i = 0; i <8; i++){
+        if(sumas[i]==sumas[i+1]){
+            contador++
+        }
+    }
+  
+
+    if (contador==7){
+        alert("Es una matriz magica ya que la suma de cada uno de sus lados son iguales a "+sumas[0])
+    }
+    else{
+        alert("No es una matriz magica ya que la suma de cada uno de sus lados son diferentes ")
+    }
+
+    
+</script>
+
+</body>
+
+</html>

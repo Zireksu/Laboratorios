@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 4</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+
+    var cantidad = new Array(2);
+    cantidad[0] =0
+    cantidad[1] =0
+
+   var cadena = prompt("Ingrese su cadena de texto",)
+
+   for (var i = 0; i<cadena.length; i++){
+       var letra = cadena.charAt(i)
+
+
+       if (letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u' || letra=='A' || letra=='E' || letra=='I' || letra=='O' || letra=='U'){
+        cantidad[0]++
+       }
+       else if(letra!=' '){
+           cantidad[1]++
+       }
+   }
+    
+   alert("Cantidad de vocales dentro de la cadena: "+cantidad[0])
+   alert("Cantidad de consonantes dentro de la cadena: "+cantidad[1])
+   
+    
+</script>
+</body>
+
+</html>

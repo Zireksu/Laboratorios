@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Laboratorio 4</title>
+        
+
+
+</head>
+
+<body style="background-color: #2C3E50">
+
+    <script type="text/javaScript">
+
+    let numeritos = [1, 2, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 9, 10, 11]
+    var newnumeritos = new Array(11);
+    var cont = 0
+    for (var i = 0; i < 11; i++){
+        newnumeritos[i]=0
+    }
+
+    for(var i = 0; i < 15; i++) {
+        if(numeritos[i]!=numeritos[i+1]){
+            newnumeritos[cont]=numeritos[i]
+            cont++
+        }
+    }
+
+    </script>
+
+    <h2 style="color: white">
+        Nuevo orden del arreglo: <br><br>
+    <script>
+    for(var i = 0; i <= 10; i++){
+        document.write(newnumeritos[i]+" | ");
+    }
+    </script>
+    </h2>
+
+</body>
+
+</html>
